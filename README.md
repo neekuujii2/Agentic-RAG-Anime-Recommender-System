@@ -10,20 +10,6 @@
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-K8s-blue?style=for-the-badge\&logo=kubernetes)
 ![MIT License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
 
----
-
-## 🚀 Live Demo
-
-### 🌐 Application
-
-https://agentic-rag-anime-recommender-system-4zb9ciceyhdlqls2csksqd.streamlit.app/
-
-### 👨‍💻 Streamlit Portfolio
-
-https://share.streamlit.io/user/ratnesh-181998
-
----
-
 # 📖 Overview
 
 Traditional recommendation systems rely heavily on tags, ratings, and predefined categories. These approaches often fail to capture emotions, atmosphere, themes, and nuanced user intent.
