@@ -247,11 +247,11 @@ with st.sidebar:
     st.markdown("""
     <div style='background: linear-gradient(135deg, rgba(40, 116, 240, 0.2) 0%, rgba(155, 89, 182, 0.2) 100%); 
                 padding: 15px; border-radius: 10px; border: 2px solid rgba(155, 89, 182, 0.4);'>
-        <p style='margin: 5px 0; color: #00d4ff; font-weight: 600;'>Ratnesh Kumar Singh</p>
+        <p style='margin: 5px 0; color: #00d4ff; font-weight: 600;'>Neeraj Kumar </p>
         <p style='margin: 5px 0; font-size: 0.85rem;'>Data Scientist (AI/ML Engineer)</p>
         <div style='margin-top: 10px; display: flex; flex-wrap: wrap; gap: 10px;'>
-            <a href='https://github.com/Ratnesh-181998' target='_blank' style='text-decoration: none; color: #2874f0; font-weight: bold; font-size: 0.8rem;'>🔗 GitHub</a>
-            <a href='https://www.linkedin.com/in/ratneshkumar1998/' target='_blank' style='text-decoration: none; color: #0077b5; font-weight: bold; font-size: 0.8rem;'>💼 LinkedIn</a>
+            <a href='https://github.com/neekuujii2' target='_blank' style='text-decoration: none; color: #2874f0; font-weight: bold; font-size: 0.8rem;'>🔗 GitHub</a>
+            <a href='https://www.linkedin.com/in/neeraj-kumar-datascientist/' target='_blank' style='text-decoration: none; color: #0077b5; font-weight: bold; font-size: 0.8rem;'>💼 LinkedIn</a>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -321,7 +321,7 @@ with tab1:
     st.markdown("""
     <div style='background: linear-gradient(135deg, rgba(40, 116, 240, 0.1) 0%, rgba(155, 89, 182, 0.1) 100%); 
                 padding: 20px; border-radius: 12px; border-left: 5px solid #00d4ff; margin-bottom: 25px;'>
-        <h3 style='color: #00d4ff; margin: 0 0 10px 0;'>🔍 Ratnesh's Anime Discovery Engine</h3>
+        <h3 style='color: #00d4ff; margin: 0 0 10px 0;'>🔍 Neeraj Kumar's Anime Discovery Engine</h3>
         <p style='color: #e8e8e8; margin: 0;'>
             Experience the power of semantic search. Describe your ideal anime below, and our model will find 
             the perfect match based on <b>plot, themes, and emotional tone</b>.

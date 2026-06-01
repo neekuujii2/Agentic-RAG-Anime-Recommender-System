@@ -1,3 +1,4 @@
+import os
 from src.vector_store import VectorStoreBuilder
 from src.recommender import AnimeRecommender
 from config.config import GROQ_API_KEY,MODEL_NAME
@@ -11,7 +12,20 @@ class AnimeRecommendationPipeline:
         try:
             logger.info("Initializing Recommendation Pipeline")
 
-            vector_builder = VectorStoreBuilder(csv_path="" , persist_dir=persist_dir, embedding=embedding)
+            # Get the path to the CSV file relative to this file's location
+            current_dir = os.path.dirname(os.path.abspath(__file__))
+            csv_path = os.path.join(current_dir, "..", "data", "anime_with_synopsis.csv")
+
+            # Check if vector store exists and has data
+            vector_store_exists = os.path.exists(persist_dir) and len(os.listdir(persist_dir)) > 0
+            
+            vector_builder = VectorStoreBuilder(csv_path=csv_path, persist_dir=persist_dir, embedding=embedding)
+
+            # Build vector store if it doesn't exist
+            if not vector_store_exists:
+                logger.info(f"Vector store not found. Building from {csv_path}...")
+                vector_builder.build_and_save_vectorstore()
+                logger.info("Vector store built successfully")
 
             retriever = vector_builder.load_vector_store().as_retriever()
 
