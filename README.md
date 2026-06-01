@@ -353,7 +353,7 @@ Grafana integration provides:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/Ratnesh-181998/Agentic-RAG-Anime-Recommender-System.git
+git clone https://github.com/neekuujii2/Agentic-RAG-Anime-Recommender-System.git
 
 cd Agentic-RAG-Anime-Recommender-System
 ```
@@ -449,26 +449,24 @@ streamlit run Code/app/premium_dashboard.py
 
 # 👨‍💻 Author
 
-## Ratnesh Kumar Singh
+## Neeraj Kumar 
 
 AI/ML Engineer | Data Scientist | Agentic AI Developer
 
 ### Connect
 
 LinkedIn:
-https://www.linkedin.com/in/ratneshkumar1998/
+[https://www.linkedin.com/in/Neeraj kumar](https://www.linkedin.com/in/neeraj-kumar-b12-datascienecist/)
 
 GitHub:
-https://github.com/Ratnesh-181998
+https://github.com/neekuujii2
 
-HuggingFace:
-https://huggingface.co/RattuDa98
 
 Kaggle:
-https://www.kaggle.com/rattuda
+[https://www.kaggle.com/neerajkumar75260](https://www.kaggle.com/neerajkumar75260)
 
 Portfolio:
-https://share.streamlit.io/user/ratnesh-181998
+https://neeraj-kumar-aidevportfolio.vercel.app/
 
 ---
 
